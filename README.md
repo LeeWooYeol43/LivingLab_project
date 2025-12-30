@@ -109,8 +109,3 @@ python main.py
 - Google Cloud API (STT, TTS) 및 Gemini API는 사용량에 따라 과금될 수 있습니다.
 
 ---
-
-
-- **설치 패키지**: 코드의 `import` 구문을 통해 필요한 라이브러리(`google-cloud-*`, `pyaudio` 등)를 추론하여 작성했습니다.
-- **환경 변수**: `config.py`에서 `os.environ`으로 불러오는 키값들을 기준으로 작성했습니다.
-- **시스템 패키지**: `subprocess`로 `mpg123`과 `amixer`를 호출하는 부분이 있어 해당 패키지 설치 내용을 포함했습니다.
