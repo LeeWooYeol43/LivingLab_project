@@ -110,9 +110,6 @@ python main.py
 
 ---
 
-## 💡 작성 팁 (기록)
-
-위 `README.md` 내용은 업로드해주신 파일들의 코드(`main.py`의 인사말, `bis_module.py`의 로직 등)를 기반으로 작성되었습니다.
 
 - **설치 패키지**: 코드의 `import` 구문을 통해 필요한 라이브러리(`google-cloud-*`, `pyaudio` 등)를 추론하여 작성했습니다.
 - **환경 변수**: `config.py`에서 `os.environ`으로 불러오는 키값들을 기준으로 작성했습니다.
